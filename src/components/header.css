@@ -1,6 +1,7 @@
 .button-container button{
     background-color: transparent;
     width: 100%;
+    min-width: 160px;
     text-transform: uppercase;
     font-weight: bold;
     font-family: sans-serif;
