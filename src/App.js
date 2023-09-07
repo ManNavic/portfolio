@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header';
-import mainSvg, {ReactComponent as MainSvg} from './assets/main.js'
+import mainSvg from './assets/main.js'
+import About from './components/about';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className='main-svg'>
       {mainSvg()}
       </div>
+      <About/>
     </div>
   );
 }
