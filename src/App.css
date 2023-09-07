@@ -3,5 +3,13 @@
   background-image: url('/src/assets/bg-grain.jpg');
   background-repeat: repeat;
   min-height: 100vh;
+  cursor: url('/src/assets/cursor-svgrepo-com.svg'), auto;
 
+  
+
+}
+.main-svg{
+  width: 100%;
+    display: grid;
+    justify-content: center;
 }
