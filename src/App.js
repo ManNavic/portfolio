@@ -1,15 +1,14 @@
 import './App.css';
 import Header from './components/header';
-import mainSvg from './assets/main.js'
+
 import About from './components/about';
+import Main from './components/main';
 
 function App() {
   return (
     <div className="app-background">
       <Header/>
-      <div className='main-svg'>
-      {mainSvg()}
-      </div>
+      <Main/>
       <About/>
     </div>
   );
