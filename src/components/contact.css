@@ -1,0 +1,22 @@
+.contact-text{
+    text-align: center;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contactMe{
+    flex: 1;
+    border: solid 1px rgb(138, 186, 237);
+}
+.socials{
+    flex: 1;
+    border: solid 1px rgb(138, 186, 237);
+}
