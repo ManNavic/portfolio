@@ -1,15 +1,17 @@
 
-.app-background {
-  background-image: url('/src/assets/bg-grain.jpg');
-  background-repeat: repeat;
-  min-height: 100vh;
-  cursor: url('/src/assets/cursor-svgrepo-com.svg'), auto;
-
-  
-
+#root{
+overflow-x: hidden;
+background-size: contain;
+background-size: 100px ;
+background-position-x: center;
+cursor: url('/src/assets/cursor-svgrepo-com.svg'), auto;
+min-width: 370px;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Tilt Neon', sans-serif;
 }
-.main-svg{
-  width: 100%;
-    display: grid;
-    justify-content: center;
+
+:root{
+  
+  --main-color: #000000;
+  color: var(--main-color);
 }
