@@ -1,10 +1,11 @@
 const mainSvg = () => {
   return (
+    <div>
+
     <svg
       id="home-hero"
-      width="1900"
-      height="450"
-      viewBox="0 0 1600 410"
+      width="1500"
+      height="750"
     >
       <g id="computer">
         <g id="computer-shadow">
@@ -43,7 +44,7 @@ const mainSvg = () => {
             height="131.45"
             rx="8.32"
             ry="8.32"
-            fill="#eaebef"
+            fill="black"
           ></rect>
         </g>
         <rect
@@ -103,7 +104,6 @@ const mainSvg = () => {
                   font-weight="700"
                 >
                   <tspan x="0" y="0">
-                    Hello World!
                   </tspan>
                 </text>
               </g>
@@ -138,6 +138,7 @@ const mainSvg = () => {
         </g>
       </g>
     </svg>
+    </div>
   )
 }
 export default mainSvg
