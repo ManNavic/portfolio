@@ -10,53 +10,45 @@ const About = () => {
         <div id="about">
           <h2>About Me</h2>
           <p>
-            Hello! I'm [Your Name], a junior software developer with a passion
+            Hello! I'm Mantas, a junior software developer with a passion
             for turning lines of code into innovative solutions. Technology has
             always fascinated me, and I'm excited to embark on a journey where I
             can blend creativity with technical expertise.
           </p>
         </div>
+        <div className='skills-exp'>
         <div id="skills">
           <h2>Skills</h2>
           <ul>
             <li>
               Languages:
               <ul>
-                <li>JavaScript</li>
+                <p>JavaScript</p>
               </ul>
             </li>
             <li>
               Frameworks:
               <ul>
-                <li>React.js</li>
-                <li>Node.js</li>
+                <p>React.js, Node.js</p>
               </ul>
             </li>
             <li>
               Tools:
               <ul>
-                <li>Git</li>
-                <li>GitHub</li>
+                <p>Git, GitHub</p>
               </ul>
             </li>
             <li>
               Development:
               <ul>
-                <li>Test-Driven Development</li>
-                <li>Debugging</li>
-                <li>REST APIs</li>
-                <li>Prisma ORM</li>
-                <li>Express.js</li>
-                <li>PostgreSQL</li>
-                <li>HTML</li>
-                <li>Cascading Style Sheets (CSS)</li>
+                <p>Test-Driven Development, Debugging, REST APIs, Prisma ORM, Express.js, PostgreSQL, HTML, Cascading Style Sheets (CSS)</p>
               </ul>
             </li>
             <li>
               Additional Skills:
               <ul>
-                <li>MongoDB</li>
-                <li>Teamwork</li>
+                <p>MongoDB, Teamwork</p>
+      
               </ul>
             </li>
           </ul>
@@ -88,6 +80,8 @@ const About = () => {
             </li>
           </ul>
         </div>
+        </div>
+        
       </div>
         </div>
       </div>
