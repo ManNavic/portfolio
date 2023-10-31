@@ -2,10 +2,7 @@
     text-align: center;
 }
 #contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 .contacts{
     display: flex;
@@ -15,8 +12,14 @@
 .contactMe{
     flex: 1;
     border: solid 1px rgb(138, 186, 237);
+    padding: 10px;
 }
 .socials{
     flex: 1;
     border: solid 1px rgb(138, 186, 237);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+   
 }

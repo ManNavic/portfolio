@@ -13,8 +13,8 @@ const Contact = () => {
       </div>
       <div className='contacts'>
         <div className='socials'>
-            <p><Github/>  Github</p>
-            <p><Linkedin/> Linkedin</p>
+            <p><Github/>  <a href='https://github.com/ManNavic'>Github</a></p>
+            <p><Linkedin/>  <a href='www.linkedin.com/in/navickis-mantas'>Linkedin</a></p>
         </div>
         <div className='contactMe'>
           <h2>Contact Me</h2>
@@ -26,7 +26,7 @@ const Contact = () => {
           </p>
           <p>
             <strong>Email:</strong>{' '}
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <a href="mailto:navickis@gmail.com">navickis@gmail.com</a>
           </p>
           <p>
             Let's start a conversation, and I'll get back to you as soon as
