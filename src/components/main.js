@@ -1,4 +1,4 @@
-import mainSvg from '../assets/main'
+
 import Header from './header'
 import './main.css'
 import Image1 from '../assets/laptop.png'
@@ -14,7 +14,7 @@ const Main = () => {
           <div className="line3"></div>
           <div className="line4"></div>
         </div>
-          <img src={Image1}/>
+          <img src={Image1} alt='something'/>
         <div class="moving-text-container">
           <div class="moving-text">
             <span className='text1'>HELLO WORLD</span>
