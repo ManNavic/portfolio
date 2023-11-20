@@ -6,7 +6,7 @@ const Moon = () => {
         xmlns="http://www.w3.org/2000/svg"
         width="30px"
         height="30px"
-        viewBox="0 0 20 20"
+        viewBox="0 0 20 17"
       >
         <g >
           <path

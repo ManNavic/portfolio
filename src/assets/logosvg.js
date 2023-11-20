@@ -3,7 +3,7 @@ const LogoSvg = ({width, height}) => {
     <svg
       width={width|| '250px'}
       height={height||"77px"}
-      viewBox="40 0 506.000000 150.000000"
+      viewBox="30 17 508.000000 150.000000"
     >
       <g
       className="logo"
