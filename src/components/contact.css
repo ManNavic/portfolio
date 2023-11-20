@@ -1,13 +1,14 @@
 .contact-text{
     text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 #contact{
     width: 100%;
 }
 .contacts{
-    display: flex;
-    flex-direction: row;
-    
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
 }
 .contactMe{
     flex: 1;
@@ -22,4 +23,14 @@
     justify-content:space-around;
     align-items: center;
    
+}
+.socials div{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 768px) {
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
 }

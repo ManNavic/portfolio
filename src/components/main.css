@@ -43,20 +43,22 @@ top: 1;
 .moving-text-container {
     position: relative;
     width: 234px;
-    height: 133px;
+    height: 134px;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
-    top: -196px;
+    top: -198px;
     left:13.5%;
     z-index: 44444444;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .moving-text {
     display: flex;
     flex-direction: column;
-    margin: 0px 0 0 10px ;
-    font-size: 33px;
+    font-size: 27px;
     font-weight: bold;
     color: white;
     position: absolute;
