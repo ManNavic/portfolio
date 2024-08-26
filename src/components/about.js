@@ -34,37 +34,73 @@ const About = () => {
                   <li>HTML</li>
                   <li>Cascading Style Sheets (CSS)</li>
                   <li>MongoDB</li>
+                  <li>Agile-Scrum</li>
+                  <li>Problem-Solving</li>
+                  <li>collaboration</li>
+                  <li>Adaptability</li>
+                  <li>Attention to Detail</li>
+                  <li>Time Management</li>
                 </ul>
               </div>
 
               <div id="experience">
                 <h2>Experience</h2>
-                <p>Software Developer at RaSaMaNoLeCa (Student team)</p>
-                <p>September 2023 - Present</p>
+                <p>Full Stack Developer Intern, Chimp AB</p>
+                <p>March 2024 - July 2024</p>
                 <ul>
                   <li>
-                    Leading the product development efforts for an eCommerce
-                    project within an Agile-Scrum framework.
+                    Developed and maintained web applications using HTML, CSS,
+                    and JavaScript.
                   </li>
                   <li>
-                    Defining clear product backlogs, user stories, and
-                    priorities.
+                    Utilized React.js to create interactive and responsive user
+                    interfaces.
                   </li>
                   <li>
-                    Creating high fidelity Figma designs and collaborating with
-                    developers for feature delivery.
+                    Collaborated with team members to troubleshoot and resolve
+                    technical issues.
                   </li>
                   <li>
-                    Implementing responsive and user-friendly frontend features
-                    using HTML, CSS, and React.
+                    Built RESTful APIs with Node.js and Express for seamless
+                    communication between client and server.
                   </li>
                   <li>
-                    Developing secure backend components using Node.js, Express,
-                    and MongoDB for efficient data management.
+                    Integrated third-party APIs to enhance functionality and
+                    user experience.
+                  </li>
+                  <li>Implemented database design and management using SQL.</li>
+                  <li>
+                    Participated in Agile development processes to deliver
+                    high-quality software solutions.
+                  </li>
+                </ul>
+                <p>Machine Operator, Ter Beke B.V</p>
+                <p>January 2020 - February 2023</p>
+                <ul>
+                  <li>
+                    Operated and managed production lines, including cutting and
+                    packaging lines.
                   </li>
                   <li>
-                    Participating in sprint planning, daily stand-ups, and
-                    retrospectives to drive the project forward.
+                    Conducted regular checks and resolved minor faults to ensure
+                    uninterrupted production processes.
+                  </li>
+                  <li>
+                    Ensured proper adjustment of machinery to maintain quality
+                    standards.
+                  </li>
+                  <li>
+                    Managed the timely replacement of foils and labels to meet
+                    production requirements.
+                  </li>
+                  <li>
+                    Identified potential issues on the production line and took
+                    proactive measures to prevent disruptions.
+                  </li>
+                  <li>
+                    Facilitated effective communication between the high-care
+                    department and the packing line to optimize workflow and
+                    quality control.
                   </li>
                 </ul>
               </div>
